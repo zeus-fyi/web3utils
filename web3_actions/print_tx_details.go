@@ -8,7 +8,7 @@ import (
 	"github.com/gochain/gochain/v4/common"
 	"github.com/gochain/gochain/v4/core/types"
 	"github.com/rs/zerolog/log"
-	web3_types "github.com/zeus-fyi/gochain/web3/types"
+	web3_types "github.com/zeus-fyi/web3utils/types"
 )
 
 func PrintReceiptDetails(ctx context.Context, r *web3_types.Receipt, myabi *abi.ABI) error {

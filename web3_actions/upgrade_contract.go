@@ -9,7 +9,7 @@ import (
 	"github.com/gochain/gochain/v4/accounts/abi"
 	"github.com/gochain/gochain/v4/common"
 	"github.com/rs/zerolog/log"
-	"github.com/zeus-fyi/gochain/web3/assets"
+	"github.com/zeus-fyi/web3utils/assets"
 )
 
 func (w *Web3Actions) UpgradeContract(ctx context.Context, contractAddress, newTargetAddress string, amount *big.Int, timeoutInSeconds uint64) error {

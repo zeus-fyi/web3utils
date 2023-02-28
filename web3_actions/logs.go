@@ -10,7 +10,7 @@ import (
 	"github.com/gochain/gochain/v4/common/hexutil"
 	"github.com/gochain/gochain/v4/core/types"
 	zlog "github.com/rs/zerolog/log"
-	web3_types "github.com/zeus-fyi/gochain/web3/types"
+	web3_types "github.com/zeus-fyi/web3utils/types"
 )
 
 func getInputs(args abi.Arguments, indexed bool) []abi.Argument {

@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/gochain/gochain/v4/accounts/abi"
-	"github.com/zeus-fyi/gochain/web3/assets"
+	"github.com/zeus-fyi/web3utils/assets"
 )
 
 func (w *Web3Actions) GetTargetContract(ctx context.Context, rpcURL, contractAddress string) (string, error) {

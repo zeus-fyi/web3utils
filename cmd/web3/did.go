@@ -17,11 +17,11 @@ import (
 	"github.com/gochain/gochain/v4/common"
 	"github.com/gochain/gochain/v4/core/types"
 	"github.com/gochain/gochain/v4/crypto"
-	"github.com/zeus-fyi/gochain/web3/accounts"
-	"github.com/zeus-fyi/gochain/web3/assets"
-	"github.com/zeus-fyi/gochain/web3/did"
-	"github.com/zeus-fyi/gochain/web3/vc"
-	"github.com/zeus-fyi/gochain/web3/web3_actions"
+	"github.com/zeus-fyi/web3utils/accounts"
+	"github.com/zeus-fyi/web3utils/assets"
+	"github.com/zeus-fyi/web3utils/did"
+	"github.com/zeus-fyi/web3utils/vc"
+	"github.com/zeus-fyi/web3utils/web3_actions"
 	"golang.org/x/crypto/sha3"
 )
 

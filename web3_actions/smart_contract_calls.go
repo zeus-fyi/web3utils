@@ -10,7 +10,7 @@ import (
 	"github.com/gochain/gochain/v4/crypto"
 	"github.com/gochain/gochain/v4/rlp"
 	"github.com/rs/zerolog/log"
-	web3_types "github.com/zeus-fyi/gochain/web3/types"
+	web3_types "github.com/zeus-fyi/web3utils/types"
 )
 
 // CallFunctionWithArgs submits a transaction to execute a smart contract function call.

@@ -13,7 +13,7 @@ import (
 
 	"github.com/gochain/gochain/v4/accounts/abi/bind"
 	"github.com/urfave/cli"
-	"github.com/zeus-fyi/gochain/web3/assets"
+	"github.com/zeus-fyi/web3utils/assets"
 )
 
 const (

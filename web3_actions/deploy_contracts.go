@@ -13,7 +13,7 @@ import (
 	"github.com/gochain/gochain/v4/crypto"
 	"github.com/gochain/gochain/v4/rlp"
 	"github.com/rs/zerolog/log"
-	web3_types "github.com/zeus-fyi/gochain/web3/types"
+	web3_types "github.com/zeus-fyi/web3utils/types"
 )
 
 // DeployContract submits a contract creation transaction.

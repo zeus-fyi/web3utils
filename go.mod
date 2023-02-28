@@ -1,4 +1,4 @@
-module github.com/zeus-fyi/gochain/web3
+module github.com/zeus-fyi/web3utils
 
 go 1.20
 

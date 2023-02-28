@@ -1,8 +1,8 @@
 package web3_actions
 
 import (
-	"github.com/zeus-fyi/gochain/web3/accounts"
-	web3_client "github.com/zeus-fyi/gochain/web3/client"
+	"github.com/zeus-fyi/web3utils/accounts"
+	web3_client "github.com/zeus-fyi/web3utils/client"
 )
 
 type Web3Actions struct {

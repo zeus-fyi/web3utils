@@ -28,11 +28,11 @@ import (
 	"github.com/shopspring/decimal"
 	"github.com/treeder/gotils/v2"
 	"github.com/urfave/cli"
-	"github.com/zeus-fyi/gochain/web3/accounts"
-	"github.com/zeus-fyi/gochain/web3/assets"
-	web3_client "github.com/zeus-fyi/gochain/web3/client"
-	"github.com/zeus-fyi/gochain/web3/types"
-	"github.com/zeus-fyi/gochain/web3/web3_actions"
+	"github.com/zeus-fyi/web3utils/accounts"
+	"github.com/zeus-fyi/web3utils/assets"
+	web3_client "github.com/zeus-fyi/web3utils/client"
+	"github.com/zeus-fyi/web3utils/types"
+	"github.com/zeus-fyi/web3utils/web3_actions"
 )
 
 // Flags

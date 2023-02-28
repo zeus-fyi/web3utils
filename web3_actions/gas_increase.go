@@ -8,8 +8,8 @@ import (
 	"github.com/gochain/gochain/v4/common"
 	"github.com/gochain/gochain/v4/core/types"
 	"github.com/rs/zerolog/log"
-	web3_client "github.com/zeus-fyi/gochain/web3/client"
-	"github.com/zeus-fyi/gochain/web3/types"
+	web3_client "github.com/zeus-fyi/web3utils/client"
+	"github.com/zeus-fyi/web3utils/types"
 )
 
 func (w *Web3Actions) IncreaseGas(ctx context.Context, network web3_client.Network, txHash string, amountGwei string) error {
